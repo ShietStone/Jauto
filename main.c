@@ -10,8 +10,8 @@ char* strjoin(char* a, char* b);
 int strends(char* target, char* test);
 
 int main(int argc, char* argv[]) {
-	handleDirectory(".");
-	return 0;
+    handleDirectory(".");
+    return 0;
 }
 
 void handleDirectory(char* path) {
